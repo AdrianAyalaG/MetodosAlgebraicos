@@ -64,7 +64,8 @@ Se tiene $$G(z)=\frac{0.005+0.005z}{z^{2}-2z+1}; C(z)=\frac{B_{0}+B_{1}z}{A_{0}+
 Entonces en lazo cerrado sería: $$G_{0}(s)=\frac{(0.005+0.005z)(B_{0}+B_{1}z)}{(A_{0}+A_{1}z)(z^{2}-2z+1)+(B_{0}+B_{1}z)(0.005+0.005z)}$$
 $$D'_{0} = A_{1}z^{3}+(A_{0}-2A_{1}+0.005B_{1})z^{2}+(A_{1}-2A_{0}+0.005B_{1}+0.005B_{0})z+A_{0}+0.005B_{0}$$
 Y el polinomio deseado es $$(z+0.2)^3$$ por ende la ecuación diafóntica quedaría:
+
 ![Figura de prueba](ejercicio_ED_1.png)
 
-Figura 1. Ecuaciones Diofanticas y su uso.
+Figura 2. Ejercicio Ecuaciones diafónticas.
 
