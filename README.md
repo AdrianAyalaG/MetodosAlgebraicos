@@ -55,4 +55,5 @@ Siguiendo el ejemplo 2 y teniendo un controlador bipropio, sucede:
 * Dado que lo que interesa es el polinomio caracteristico y B(z) y A(z) son las variables a solucionar, entonces se generaliza y simplifica todo con una ecuación diafóntica, en donde, D_{0} serán los puntos de la dinámica del sistema (Denominador) deseados.
 * Se realiza de la siguiente manera:
   IMAGEN
+  (Ecuaciones_Diofanticas.png)
 
