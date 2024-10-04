@@ -50,3 +50,9 @@ Siguiendo el ejemplo 2 y teniendo un controlador bipropio, sucede:
 * Resolviendo la igualdad entre ambos polinomios caracteristicos, se obtiene que A_{0}= -0.911; A_{1}= 1; B_{0}= -12.99 y B_{1}= 14.23
 * Los coeficientes obtenidos satisfacen lo requerido para obtener el controlador, por ende, el controlador resulta siendo:
     $$C(z)=\frac{-12.99+14.23z}{-0.911+z}$$
+
+# Ecuaciones Diafónticas
+* Dado que lo que interesa es el polinomio caracteristico y B(z) y A(z) son las variables a solucionar, entonces se generaliza y simplifica todo con una ecuación diafóntica, en donde, D_{0} serán los puntos de la dinámica del sistema (Denominador) deseados.
+* Se realiza de la siguiente manera:
+  IMAGEN
+
