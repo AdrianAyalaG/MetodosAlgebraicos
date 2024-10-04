@@ -1,5 +1,5 @@
 12/09/2024
-# MetodosAlgebraicos
+# Metodos Algebraicos
 ## Igualación de coeficientes: 
 > 🔑 ¿Qué se hace?: Se analizan los coeficientes del polinomio caracteristico.
 
@@ -29,5 +29,8 @@ $$G_{0}(z)=\frac{K(0.0043)}{z^{2}-1.819z+0.8187+K(0.0043)}$$
 * Se le debe agregar un polo y un zero.
 * Este concepto no se aplica para funciones de primer orden.
 
+$$G(z)=\frac{N(z)}{D(z)}; C(z)=\frac{B(z)}{A(z)}; G_{0}(z)=\frac{N_{0}(z)}{D_{0}(z)}$$
+Si $$ G_{0}(z)=\frac{C(z)G(z)}{1+C(z)G(z)}\Rightarrow \frac{B(z)N(z)}{{\color{Orchid} A(z)D(z)}+{\color{Green} B(z)}N(z)}$$
 
-* 
+*Donde A(z) y D(z) son los valores causantes de que se suba un orden. Y B(z) y A(z) son las variables a solucionar para hallar el controlador.
+
