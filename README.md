@@ -1,5 +1,9 @@
 12/09/2024
 # Metodos Algebraicos
+
+# 💡Ejemplo 1
+Se tiene la siguiente planta: $$G(z)= \frac{0.01(z+1)}{z^{3}-2.01z+1}$$ 
+
 ## Igualación de coeficientes: 
 > 🔑 ¿Qué se hace?: Se analizan los coeficientes del polinomio caracteristico.
 
@@ -8,7 +12,7 @@ Caracteristicas adicionales:
 * Se puede obtener el C(z) Controlador que asegura el comportamiento deseado.
 * Se hace una igualación coeficiente a coeficiente. 
 
-# 💡Ejemplo 1
+# 💡Ejemplo 2
 Si se tiene G(z) de la siguiente manera: 
 $$G(z)= \frac{0.0043}{z^{2}-1.819z+0.8187}$$
 Ahora bien, si se desea tener un controlador para ubicar los nuevos polos de la siguiente manera: 
@@ -34,7 +38,7 @@ Si $$ G_{0}(z)=\frac{C(z)G(z)}{1+C(z)G(z)}\Rightarrow \frac{B(z)N(z)}{{\color{Or
 
 * Donde A(z) y D(z) son los valores causantes de que se suba un orden. Y B(z) y A(z) son las variables a solucionar para hallar el controlador.
 
-# 💡Ejemplo 2
+# 💡Ejemplo 3
 Siguiendo el ejemplo 1 y teniendo un controlador que no es bipropio, sucede:
   $$C(z)=\frac{B_{0}}{A_{0}+A_{1}z}$$
   Ahora el sistema tendrá 3 polos, por lo que: $$(z-0.91+0.23j)(z-0.91-0.23j)(z-0.91)= {\color{Red} z^{3}-2.73z^{2}+2.537z-0.8017}$$
@@ -42,7 +46,7 @@ Siguiendo el ejemplo 1 y teniendo un controlador que no es bipropio, sucede:
   * Resolviendo la igualdad entre ambos polinomios caracteristicos, se obtiene que NO se satisfacen todas las ecuaciones.
   * Se analiza que Número de incognitas debe ser igual a numero de ecuaciones.
 
-# 💡Ejemplo 3
+# 💡Ejemplo 4
 Siguiendo el ejemplo 2 y teniendo un controlador bipropio, sucede: 
   $$C(z)=\frac{B_{0}+B_{1}z}{A_{0}+A_{1}z}$$
   Ahora el sistema seguirá teniendo 3 polos, por lo que: $$(z-0.91+0.23j)(z-0.91-0.23j)(z-0.91)= {\color{Red} z^{3}-2.73z^{2}+2.537z-0.8017}$$
